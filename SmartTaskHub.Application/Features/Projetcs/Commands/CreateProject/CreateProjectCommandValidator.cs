@@ -2,7 +2,8 @@
 
 namespace SmartTaskHub.Application.Features.Projetcs.Commands.CreateProject
 {
-    public class CreateProjectCommandValidator : AbstractValidator<CreateProjectCommand>
+    public class CreateProjectCommandValidator :
+        AbstractValidator<CreateProjectCommand>
     {
         public CreateProjectCommandValidator()
         {

@@ -17,7 +17,8 @@ namespace SmartTaskHub.Application.Features.Projetcs.Commands.CreateProject
             CreateProjectCommand request,
             CancellationToken cancellationToken)
         {
-            var project = new Project(request.Name, request.OwnerId, request.Description);
+            var project = 
+                new Project(request.Name, request.OwnerId, request.Description);
 
             _context.Projects.Add(project);
 
